@@ -1,0 +1,11 @@
+<b>Hell0 W0rlDD Xd</b>
+<title>IM MARKKKK</title>
+<br>
+<a href="{% url 'signup' %}">Signup here!</a>
+<br>
+{% for post in posts %}
+<hr/>
+<h1>{{ post.title }}</h1>
+<h2>{{ post.content }}</h2>
+
+{% endfor%}
